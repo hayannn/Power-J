@@ -12,14 +12,10 @@
 * 권장: Google Chrome 버젼 77 이상
 
 ## 기술 스택 (Technique Used) 
-### Server(back-end)
- -  java 
- - mysql 
- 
-### Front-end
- -  react.js, vue.js 등 사용한 front-end 프레임워크 
- -  UI framework
- - 기타 사용한 라이브러리
+ -  AndroidStudio
+ -  xml
+ -  java
+ -  mysql
 
 ## 설치 안내 (Installation Process) -> 수정 예정.
 ```bash
@@ -29,7 +25,7 @@ $ yarn start or npm run start
 ```
 
 ## 프로젝트 사용법 (Getting Started)
-
+- 설명 기입
 
 ## 팀 정보 (Team Information)
 - 이하얀 (dlgkdis801@naver.com), Github Id: hayannn
