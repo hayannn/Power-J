@@ -115,7 +115,7 @@ $ yarn start or npm run start
 
 ## 팀 정보 (Team Information)
 - 이하얀 (dlgkdis801@naver.com), Github Id: hayannn
-- 유다빈 (이메일주소), Github Id:
+- 유다빈 (youdabin0728@naver.com), Github Id: ddabi
 - 마일함 (이메일주소), Github Id:
 - 홍정연 (이메일주소), Github Id:
 
