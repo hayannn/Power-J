@@ -1,44 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/parent_layout"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    android:gravity="center">
 
-    <RelativeLayout
-        android:id="@+id/header"
+    <TextView
+        android:id="@+id/emailTv"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:background="#FFFFFF"
-        android:layout_alignParentTop="true">
+        android:layout_height="48dp"
+        android:gravity="center"/>
 
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:background="@drawable/powerj"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true">
-        </ImageView>
-
-    </RelativeLayout>
-
-    <FrameLayout
+    <TextView
+        android:id="@+id/pwdTv"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@id/header"
-        android:id="@+id/container"></FrameLayout>
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottom_menu"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:background="#FFFFFF"
-        app:itemIconTint="#000000"
-        app:itemTextColor="#f6d170"
-        app:labelVisibilityMode="labeled"
-        app:menu="@menu/bottom_menu"/>
-</RelativeLayout>
+        android:layout_height="48dp"
+        android:gravity="center"/>
+</LinearLayout>
