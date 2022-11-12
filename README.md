@@ -13,7 +13,7 @@
 
 ## 프로젝트 구성
 - main branch : Power-J 어플 내용 소개
-- master branch : Power-J 프
+- master branch : Power-J 프로젝트 파일
 
 ## 역할 분배
 [이하얀]
