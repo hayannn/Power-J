@@ -1,4 +1,5 @@
 # 파워 J(Power-J)
+![image](https://user-images.githubusercontent.com/102213509/201471947-d15cc4fd-879c-4f54-8b6e-90ad2fff9e86.png)
 
 ## 프로젝트 소개
 - 성인이 되기 전까지는 부모님, 선생님 등 주변의 경험이 많은 어른들에게 도움을 받으며 생활해왔다.
