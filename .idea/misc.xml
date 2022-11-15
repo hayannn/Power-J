@@ -3,7 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/dlgkd/gitpj/Power-J/app/src/main/res/drawable/main_btn.xml" value="0.1" />
+        <entry key="..\:/Users/dlgkd/gitpj/Power-J/app/src/main/res/drawable/round_edittext.xml" value="0.1" />
+        <entry key="..\:/Users/dlgkd/gitpj/Power-J/app/src/main/res/layout/activity_join.xml" value="0.14722222222222223" />
         <entry key="..\:/Users/dlgkd/gitpj/Power-J/app/src/main/res/layout/activity_login.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/dlgkd/gitpj/Power-J/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/dlgkd/gitpj/Power-J/app/src/main/res/layout/intro_activity.xml" value="0.14722222222222223" />
       </map>
     </option>
   </component>
