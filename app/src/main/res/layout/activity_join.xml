@@ -4,16 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center">
-
-<<<<<<< HEAD
-
+    <ImageView
         android:layout_width="50dp"
         android:layout_height="100dp"
         android:layout_gravity="center"
         android:layout_marginTop="40dp"
-        android:layout_marginBottom="300dp"
+        android:layout_marginBottom="260dp"
         android:background="@drawable/mainlogo"></ImageView>
-=======
+
     <TextView
         android:id="@+id/register"
         android:layout_width="wrap_content"
@@ -33,8 +31,6 @@
         android:text="가입하실 이메일과 비밀번호를 입력해주세요:)"
         android:textSize="15dp"
         android:textColor="#000000" />
-
->>>>>>> c10e432db1476c3738ffd3cc4cadc4fae31f72b2
 
     <EditText
         android:id="@+id/emailEt2"
@@ -59,13 +55,7 @@
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
-<<<<<<< HEAD
-        android:layout_marginTop="40dp"
         android:layout_marginBottom="100dp"
-=======
-        android:layout_marginTop="140dp"
-        android:layout_marginBottom="20dp"
->>>>>>> c10e432db1476c3738ffd3cc4cadc4fae31f72b2
         android:background="@drawable/main_btn"
         android:text="회원가입"
         android:textColor="@color/white"
