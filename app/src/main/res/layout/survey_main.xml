@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+    
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/mainlogo">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/surveytext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="나의 계획 성향은?"
+        android:layout_gravity="center"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/surveytext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="부족한 부분은 어떤 것일까?"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/surveytext3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="계획"
+        android:textColor="#FF5050"
+        android:textSize="50dp"/>
+
+    <TextView
+        android:id="@+id/surveytext4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="MBTI"
+        android:textColor="#FF5050"
+        android:textSize="50dp"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mbtilogo"/>
+
+    <Button
+        android:id="@+id/surveybtn1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/main_btn"
+        android:text="설문조사 시작하기"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+</LinearLayout>
