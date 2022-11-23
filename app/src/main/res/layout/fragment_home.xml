@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="나의 루틴"
+                android:textSize="23sp"
+                android:layout_marginTop="11dp"
+                android:layout_marginLeft="22dp"
+                android:layout_marginBottom="21dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="390dp"
+            android:layout_height="470dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="470dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <Button
+                        android:id="@+id/btn_exercise"
+                        android:layout_width="match_parent"
+                        android:layout_height="111dp"
+                        android:text="운동(건강)"/>
+
+
+                    <Button
+                        android:id="@+id/btn_study"
+                        android:layout_width="match_parent"
+                        android:layout_height="111dp"
+                        android:text="공부"/>
+
+                    <Button
+                        android:id="@+id/btn_hobby"
+                        android:layout_width="match_parent"
+                        android:layout_height="111dp"
+                        android:text="취미 생활"/>
+
+                    <Button
+                        android:id="@+id/btn_lifestyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="111dp"
+                        android:text="생활습관"/>
+
+                    <LinearLayout
+                        android:id="@+id/main_5"
+                        android:layout_width="400dp"
+                        android:layout_height="111dp"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/btn_etc"
+                            android:layout_width="match_parent"
+                            android:layout_height="111dp"
+                            android:text="기타"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

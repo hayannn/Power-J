@@ -34,6 +34,14 @@
         <activity android:name=".SurveyLifestyle"/>
         <activity android:name=".ResultExercise"/>
         <activity android:name=".MainActivity"/>
+        <activity android:name=".CalendarActivity"/>
+        <activity android:name=".CalendarScheduleActivity"/>
+        <activity android:name=".CalendarScheduleAddActivity"/>
+        <activity android:name=".CalendarScheduleShowActivity"/>
+        <activity android:name=".StudyActivity"/>
+        <activity android:name=".HobbyActivity"/>
+        <activity android:name=".LifeStyleActivity"/>
+        <activity android:name=".EtcActivity"/>
     </application>
 
 </manifest>
