@@ -29,6 +29,10 @@
         <activity android:name=".JoinActivity"/>
         <activity android:name=".SurveyMain"/>
         <activity android:name=".SurveyExercise"/>
+        <activity android:name=".SurveyStudy"/>
+        <activity android:name=".SurveyHobby"/>
+        <activity android:name=".SurveyLifestyle"/>
+        <activity android:name=".ResultExercise"/>
         <activity android:name=".MainActivity"/>
     </application>
 

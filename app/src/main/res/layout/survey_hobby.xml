@@ -14,43 +14,43 @@
     </ImageView>
 
     <TextView
-        android:id="@+id/surveytext5"
+        android:id="@+id/surveytext13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="운동(건강)"
+        android:text="취미생활"
         android:layout_marginBottom="40dp"
         android:textSize="20dp"
         android:textStyle="bold"
         android:textColor="#FF5050"/>
 
     <TextView
-        android:id="@+id/surveytext6"
+        android:id="@+id/surveytext14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Q1. 규칙적으로 식사한다."
+        android:text="Q1. 주기적으로 친구들을 만나며,\n       밖에서 같이 시간을 보낸다."
         android:layout_gravity="center"
-        android:layout_marginRight="50dp"
+        android:layout_marginLeft="25dp"
         android:textSize="20dp"
         android:textColor="@color/black"/>
 
     <RadioGroup
-        android:id="@+id/rg1"
+        android:id="@+id/rg7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <RadioButton
-        android:id="@+id/rbtn1"
+        android:id="@+id/rbtn19"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="35dp"
         android:text="그렇다 (3점)"/>
     <RadioButton
-        android:id="@+id/rbtn2"
+        android:id="@+id/rbtn20"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="35dp"
         android:text="보통이다 (2점)"/>
     <RadioButton
-        android:id="@+id/rbtn3"
+        android:id="@+id/rbtn21"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="35dp"
@@ -58,34 +58,34 @@
         android:text="아니다 (1점)"/>
 
     <TextView
-        android:id="@+id/surveytext7"
+        android:id="@+id/surveytext15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Q2. 운동을 규칙적으로 하는 편이다."
+        android:text="Q2. 나만의 스트레스 푸는 방법이 있다."
         android:layout_gravity="center"
         android:layout_marginRight="10dp"
         android:textSize="20dp"
         android:textColor="@color/black"/>
 
     <RadioGroup
-        android:id="@+id/rg2"
+        android:id="@+id/rg8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
     <RadioButton
-        android:id="@+id/rbtn4"
+        android:id="@+id/rbtn22"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="35dp"
         android:text="그렇다 (3점)"/>
     <RadioButton
-        android:id="@+id/rbtn5"
+        android:id="@+id/rbtn23"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="35dp"
         android:text="보통이다 (2점)"/>
     <RadioButton
-        android:id="@+id/rbtn6"
+        android:id="@+id/rbtn24"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="35dp"
@@ -93,34 +93,34 @@
         android:text="아니다 (1점)"/>
 
     <TextView
-        android:id="@+id/surveytext8"
+        android:id="@+id/surveytext16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Q3. 생활패턴이 규칙적이다."
+        android:text="Q3. 쉬는시간(비는시간)이 생겼을 때 무엇을 해야하는지 모르겠다."
         android:layout_gravity="center"
-        android:layout_marginRight="40dp"
+        android:layout_marginLeft="25dp"
         android:textSize="20dp"
         android:textColor="@color/black"/>
 
     <RadioGroup
-        android:id="@+id/rg3"
+        android:id="@+id/rg9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
     <RadioButton
-        android:id="@+id/rbtn7"
+        android:id="@+id/rbtn25"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="35dp"
         android:text="그렇다 (3점)"/>
     <RadioButton
-        android:id="@+id/rbtn8"
+        android:id="@+id/rbtn26"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="35dp"
         android:text="보통이다 (2점)"/>
     <RadioButton
-        android:id="@+id/rbtn9"
+        android:id="@+id/rbtn27"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="35dp"
@@ -128,7 +128,7 @@
         android:text="아니다 (1점)"/>
 
     <Button
-        android:id="@+id/surveybtn2"
+        android:id="@+id/surveybtn4"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_gravity="center"

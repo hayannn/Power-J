@@ -7,18 +7,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class SurveyMain extends AppCompatActivity{
-    Button bt1;
+public class ResultExercise extends AppCompatActivity{
+    Button sebtn;
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.survey_main);
-        bt1=findViewById(R.id.surveybtn1);
+        setContentView(R.layout.survey_exercise_result);
+        sebtn=findViewById(R.id.sebtn);
 
-        bt1.setOnClickListener(new View.OnClickListener(){
+        sebtn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent myintent0=new Intent(SurveyMain.this,SurveyExercise.class);
+                Intent myintent0=new Intent(ResultExercise.this,MainActivity.class);
                 startActivity(myintent0);
             }
         });
