@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sounds">
+        <item>톡톡</item>
+        <item>툭툭</item>
+        <item>파라밤</item>
+        <item>두두둑</item>
+    </string-array>
+
+</resources>

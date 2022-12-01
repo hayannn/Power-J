@@ -3,15 +3,135 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical">
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="user"
-        android:textSize="100dp"/>
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="내정보"
+                android:textSize="23sp"
+                android:layout_marginTop="11dp"
+                android:layout_marginLeft="22dp"
+                android:layout_marginBottom="21dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="이하얀"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="150dp" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:text="수정"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:text="  여자 / 22세 / dlgkdis801@naver.com"
+                android:textSize="20dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginBottom="21dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="470dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:id="@+id/btn_achieve"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:backgroundTint="#FFFFFF"
+                            android:text="성취도 보기"
+                            android:textColor="#000000"
+                            android:textSize="18dp" />
+
+                        <Button
+                            android:id="@+id/btn_setting1"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:backgroundTint="#FFFFFF"
+                            android:text="알림 설정"
+                            android:textColor="#000000"
+                            android:textSize="18dp" />
+
+                        <Button
+                            android:id="@+id/btn_setting3"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:backgroundTint="#FFFFFF"
+                            android:text="연관루틴 추천보기"
+                            android:textColor="#000000"
+                            android:textSize="18dp" />
+
+                        <Button
+                            android:id="@+id/btn_setting2"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:backgroundTint="#FFFFFF"
+                            android:text="카테고리별 다양한 루틴 배워보기"
+                            android:textColor="#000000"
+                            android:textSize="18dp" />
+
+                        <Button
+                            android:id="@+id/btn_setting4"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:backgroundTint="#FFFFFF"
+                            android:text="고치고 싶은 습관 기록"
+                            android:textColor="#000000"
+                            android:textSize="18dp" />
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
 
 
 

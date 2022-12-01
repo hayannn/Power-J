@@ -13,6 +13,13 @@
         android:theme="@style/Theme.PowerJ"
         tools:targetApi="31">
         <activity
+            android:name=".BarChartActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".IntroActivity"
             android:exported="true">
             <intent-filter>
@@ -25,23 +32,31 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <activity android:name=".LoginActivity"/>
-        <activity android:name=".JoinActivity"/>
-        <activity android:name=".SurveyMain"/>
-        <activity android:name=".SurveyExercise"/>
-        <activity android:name=".SurveyStudy"/>
-        <activity android:name=".SurveyHobby"/>
-        <activity android:name=".SurveyLifestyle"/>
-        <activity android:name=".ResultExercise"/>
-        <activity android:name=".MainActivity"/>
-        <activity android:name=".CalendarActivity"/>
-        <activity android:name=".CalendarScheduleActivity"/>
-        <activity android:name=".CalendarScheduleAddActivity"/>
-        <activity android:name=".CalendarScheduleShowActivity"/>
-        <activity android:name=".StudyActivity"/>
-        <activity android:name=".HobbyActivity"/>
-        <activity android:name=".LifeStyleActivity"/>
-        <activity android:name=".EtcActivity"/>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".JoinActivity" />
+        <activity android:name=".SurveyMain" />
+        <activity android:name=".SurveyExercise" />
+        <activity android:name=".SurveyStudy" />
+        <activity android:name=".SurveyHobby" />
+        <activity android:name=".SurveyLifestyle" />
+        <activity android:name=".ResultExercise" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".CalendarActivity" />
+        <activity android:name=".CalendarScheduleActivity" />
+        <activity android:name=".CalendarScheduleAddActivity" />
+        <activity android:name=".CalendarScheduleShowActivity" />
+        <activity android:name=".StudyActivity" />
+        <activity android:name=".HobbyActivity" />
+        <activity android:name=".LifeStyleActivity" />
+        <activity android:name=".SettingActivity" />
+        <activity android:name=".Setting2Activity" />
+        <activity android:name=".Setting3Activity" />
+        <activity android:name=".Setting4Activity" />
+        <activity android:name=".Setting5Activity" />
+        <activity android:name=".AchieveActivity" />
+        <activity android:name=".ConnectRoutineActivity" />
+        <activity android:name=".SuggestionActivity" />
+        <activity android:name=".FixActivity" />
     </application>
 
 </manifest>
