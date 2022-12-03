@@ -55,6 +55,11 @@
         <activity android:name=".Setting5Activity" />
         <activity android:name=".AchieveActivity" />
         <activity android:name=".ConnectRoutineActivity" />
+        <activity android:name=".ConnectExerciseActivity"/>
+        <activity android:name=".ConnectStudyActivity"/>
+        <activity android:name=".ConnectHobbyActivity"/>
+        <activity android:name=".ConnectHabitActivity"/>
+        <activity android:name=".ConnectEtcActivity"/>
         <activity android:name=".SuggestionActivity" />
         <activity android:name=".FixActivity" />
     </application>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#000000">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ScrollView
+                    android:layout_width="390dp"
+                    android:layout_height="600dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:text="카테고리를 클릭하면 다양한 루틴을 배워볼 수 있어요!"
+                            android:textSize="17dp"
+                            android:gravity="center"/>
+
+                        <ImageButton
+                            android:id="@+id/btn_connect_exercise"
+                            android:src="@drawable/connect_exercise"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"/>
+
+                        <ImageButton
+                            android:id="@+id/btn_connect_study"
+                            android:src="@drawable/connect_study"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"/>
+
+                        <ImageButton
+                            android:id="@+id/btn_connect_hobby"
+                            android:src="@drawable/connect_hobby"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"/>
+
+                        <ImageButton
+                            android:id="@+id/btn_connect_habit"
+                            android:src="@drawable/connect_habit"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"/>
+
+                        <ImageButton
+                            android:id="@+id/btn_connect_etc"
+                            android:src="@drawable/connect_etc"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"/>
+
+
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
