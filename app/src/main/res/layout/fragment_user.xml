@@ -14,8 +14,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            >
+            android:layout_height="wrap_content">
 
         </LinearLayout>
         <LinearLayout
@@ -27,6 +26,8 @@
                 android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:text="내정보"
+                android:textStyle="bold"
+                android:textColor="@color/main"
                 android:textSize="23sp"
                 android:layout_marginTop="11dp"
                 android:layout_marginLeft="22dp"
@@ -113,26 +114,10 @@
                             android:text="카테고리별 다양한 루틴 배워보기"
                             android:textColor="#000000"
                             android:textSize="18dp" />
-
-                        <Button
-                            android:id="@+id/btn_setting4"
-                            android:layout_width="match_parent"
-                            android:layout_height="90dp"
-                            android:backgroundTint="#FFFFFF"
-                            android:text="고치고 싶은 습관 기록"
-                            android:textColor="#000000"
-                            android:textSize="18dp" />
                     </LinearLayout>
                 </ScrollView>
             </LinearLayout>
 
         </LinearLayout>
-
-
-
     </LinearLayout>
-
-
-
-
 </LinearLayout>

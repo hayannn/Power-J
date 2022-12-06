@@ -5,135 +5,141 @@
     android:layout_height="match_parent"
     android:gravity="center">
 
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="100dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="50dp"
-        android:background="@drawable/mainlogo">
-    </ImageView>
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#ffffff"
+            android:theme="@style/Theme.AppCompat">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:background="@drawable/mainlogo" />
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
 
     <TextView
         android:id="@+id/surveytext17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="생활 습관"
-        android:layout_marginBottom="40dp"
+        android:layout_marginTop="70dp"
         android:textSize="20dp"
         android:textStyle="bold"
         android:textColor="#FF5050"/>
+    <ScrollView
+        android:layout_width="330dp"
+        android:layout_height="425dp"
+        android:layout_marginBottom="40dp">
 
-    <TextView
-        android:id="@+id/surveytext18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Q1. 오늘 꼭 해야 할 일을 자주 까먹는 편이다."
-        android:layout_gravity="center"
-        android:layout_marginLeft="25dp"
-        android:textSize="20dp"
-        android:textColor="@color/black"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <RadioGroup
-        android:id="@+id/rg10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <RadioButton
-        android:id="@+id/rbtn28"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="35dp"
-        android:text="그렇다 (3점)"/>
-    <RadioButton
-        android:id="@+id/rbtn29"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="35dp"
-        android:text="보통이다 (2점)"/>
-    <RadioButton
-        android:id="@+id/rbtn30"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="35dp"
-        android:layout_marginBottom="30dp"
-        android:text="아니다 (1점)"/>
+            <TextView
+                android:id="@+id/surveytext18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q1. 오늘 꼭 해야 할 일을 자주 까먹는 편이다."
+                android:textSize="20dp"
+                android:textColor="@color/black"/>
 
-    <TextView
-        android:id="@+id/surveytext19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Q2. 해야 할 일을 미루다가 안 좋은 퀄리티로 끝내는 경우가 많다."
-        android:layout_gravity="center"
-        android:layout_marginLeft="25dp"
-        android:textSize="20dp"
-        android:textColor="@color/black"/>
+            <RadioGroup
+                android:id="@+id/rg10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:id="@+id/rbtn28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="그렇다 (3점)"/>
+            <RadioButton
+                android:id="@+id/rbtn29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="보통이다 (2점)"/>
+            <RadioButton
+                android:id="@+id/rbtn30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="아니다 (1점)"
+                android:layout_marginBottom="30dp"/>
 
-    <RadioGroup
-        android:id="@+id/rg11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/surveytext19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q2. 해야 할 일을 미루다가 안 좋은 퀄리티로 끝내는 경우가 많다."
+                android:textSize="20dp"
+                android:textColor="@color/black"/>
 
-    <RadioButton
-        android:id="@+id/rbtn31"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="35dp"
-        android:text="그렇다 (3점)"/>
-    <RadioButton
-        android:id="@+id/rbtn32"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="35dp"
-        android:text="보통이다 (2점)"/>
-    <RadioButton
-        android:id="@+id/rbtn33"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="35dp"
-        android:layout_marginBottom="30dp"
-        android:text="아니다 (1점)"/>
+            <RadioGroup
+                android:id="@+id/rg11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
 
-    <TextView
-        android:id="@+id/surveytext20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Q3. 일의 우선순위 상관없이 하고 싶은 것 먼저 하는 편이다."
-        android:layout_gravity="center"
-        android:layout_marginLeft="25dp"
-        android:textSize="20dp"
-        android:textColor="@color/black"/>
+            <RadioButton
+                android:id="@+id/rbtn31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="그렇다 (3점)"/>
+            <RadioButton
+                android:id="@+id/rbtn32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="보통이다 (2점)"/>
+            <RadioButton
+                android:id="@+id/rbtn33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="아니다 (1점)"
+                android:layout_marginBottom="30dp"/>
 
-    <RadioGroup
-        android:id="@+id/rg12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/surveytext20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q3. 일의 우선순위 상관없이 하고 싶은 것 먼저 하는 편이다."
+                android:textSize="20dp"
+                android:textColor="@color/black"/>
 
-    <RadioButton
-        android:id="@+id/rbtn34"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="35dp"
-        android:text="그렇다 (3점)"/>
-    <RadioButton
-        android:id="@+id/rbtn35"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="35dp"
-        android:text="보통이다 (2점)"/>
-    <RadioButton
-        android:id="@+id/rbtn36"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="35dp"
-        android:layout_marginBottom="70dp"
-        android:text="아니다 (1점)"/>
+            <RadioGroup
+                android:id="@+id/rg12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:id="@+id/rbtn34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="그렇다 (3점)"/>
+            <RadioButton
+                android:id="@+id/rbtn35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="보통이다 (2점)"/>
+            <RadioButton
+                android:id="@+id/rbtn36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="아니다 (1점)"/>
+        </LinearLayout>
+    </ScrollView>
 
     <Button
         android:id="@+id/surveybtn5"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        android:layout_marginBottom="100dp"
         android:background="@drawable/main_btn"
+        android:layout_marginBottom="70dp"
         android:text="다음"
         android:textColor="@color/white"
         android:textSize="20sp"/>

@@ -4,55 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
-    android:layout_height="match_parent">
-
-
+    android:layout_height="wrap_content">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="700dp"
         android:orientation="vertical">
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            >
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:gravity="center">
             <TextView
                 android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:text="나의 루틴"
+                android:textColor="@color/main"
                 android:textSize="23sp"
+                android:textStyle="bold"
                 android:layout_marginTop="11dp"
                 android:layout_marginLeft="22dp"
-                android:layout_marginBottom="21dp"/>
-
+                android:layout_marginBottom="10dp"/>
         </LinearLayout>
-        <LinearLayout
-            android:layout_width="390dp"
-            android:layout_height="470dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp">
+
             <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="470dp">
+                android:layout_height="wrap_content">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
                     <Button
                         android:id="@+id/btn_exercise"
                         android:layout_width="match_parent"
                         android:layout_height="111dp"
                         android:text="운동(건강)"/>
-
 
                     <Button
                         android:id="@+id/btn_study"
@@ -72,20 +59,12 @@
                         android:layout_height="111dp"
                         android:text="생활습관"/>
 
-                    <LinearLayout
-                        android:id="@+id/main_5"
-                        android:layout_width="400dp"
+                    <Button
+                        android:id="@+id/btn_etc"
+                        android:layout_width="match_parent"
                         android:layout_height="111dp"
-                        android:orientation="vertical">
-
-                        <Button
-                            android:id="@+id/btn_etc"
-                            android:layout_width="match_parent"
-                            android:layout_height="111dp"
-                            android:text="기타"/>
+                        android:text="기타"/>
                     </LinearLayout>
-                </LinearLayout>
             </ScrollView>
         </LinearLayout>
     </LinearLayout>
-</LinearLayout>
