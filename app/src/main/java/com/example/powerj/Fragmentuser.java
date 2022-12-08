@@ -19,7 +19,6 @@ public class Fragmentuser extends Fragment {
     private Button btn_setting1;
     private Button btn_setting2;
     private Button btn_setting3;
-    private Button btn_setting4;
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,@Nullable Bundle savedInstanceState){
@@ -29,7 +28,6 @@ public class Fragmentuser extends Fragment {
         btn_setting1 = view.findViewById(R.id.btn_setting1);
         btn_setting2 = view.findViewById(R.id.btn_setting2);
         btn_setting3 = view.findViewById(R.id.btn_setting3);
-        btn_setting4 = view.findViewById(R.id.btn_setting4);
         return view;
     }
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState){
@@ -85,13 +83,6 @@ public class Fragmentuser extends Fragment {
             public void onClick(View view) {
                 Intent intent = new Intent(getActivity(),SuggestionActivity.class);
                 startActivity(intent);
-            }
-        });
-        btn_setting4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intnet = new Intent(getActivity(),FixActivity.class);
-                startActivity(intnet);
             }
         });
     }

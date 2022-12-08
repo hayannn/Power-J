@@ -37,7 +37,7 @@
                 android:orientation="vertical"
                 android:gravity="center">
                 <ScrollView
-                    android:layout_width="390dp"
+                    android:layout_width="380dp"
                     android:layout_height="600dp">
 
                     <LinearLayout
